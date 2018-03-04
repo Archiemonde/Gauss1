@@ -21,9 +21,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Filtracja - C++ source\Filters.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Gauss1.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -5,6 +5,8 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <cmath>
+#include <chrono>
+#include <omp.h>
 
 
 using namespace std;
@@ -18,9 +20,10 @@ public:
 	string imageinputPath;
 	string imageOutputPath;
 	int threadCount;
-	int imageRows=0;
-	int imageCols=0;
+	int imageRows = 0;
+	int imageCols = 0;
 	double **matrix;
+	int gaussFilterSize;
 
 	void compGaussianMatrix(int size, double sigma);
 	void loadParams(int argc, char** argv);
