@@ -1,1 +1,1 @@
-This is a C++ project made with cuda performing a gaussian blur on given image.
+This is a C++ project made with OpenMP performing a gaussian blur on given image.
